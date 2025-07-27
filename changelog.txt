@@ -1,0 +1,287 @@
+<body>
+<div id="form">
+<fieldset class="fieldset">
+<legend><h3>versi 2026</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan label di masing-masing indikator PAUD HI di Dapodik.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi warning pada pengisian nilai rapor.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi batasan usia maksimal untuk peserta didik baru di jenjang SMP dan SMA.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi batasan usia maksimal untuk peserta didik penyandang disabilitas.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi guru yang tidak memiliki jabatan GTK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi tugas tambahan sesuai Permendikdasmen No. 11 Tahun 2025.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi kurikulum di jenjang SMK.  </li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi pengisian 8 indikator PAUD HI. </li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan referensi Orang Asli Papua (OAP) di tabel kesejahteraan GTK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penonaktifan menu jadwal dan isiannya.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penonaktifan tombol hapus pada tabel peserta didik.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penonaktifan menu nomor administrasi peserta didik.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penonaktifan isian tracer study di jenjang SMK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penguncian jumlah anggota rombel dan jumlah rombel untuk tingkat 8 dan 11 berdasarkan daya tampung Tahun Ajaran 2024/2025.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan sub menu baru Wali pada menu Rombongan Belajar bagi jenjang SMP, SMA, SMK, PKBM/SKB dan SLB.
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan sub menu baru Matpel Pilihan pada menu Rombongan Belajar bagi jenjang SD dan SMP.
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan fitur pengisian nilai rapor bagi peserta didik dengan status mutasi.<>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian validasi warning untuk Nomor Induk Kependudukan Ayah.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian pengisian iuran sekolah sekolah swasta.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian validasi iuran sekolah bagi sekolah swasta.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian isian data rinci PAUD menjadi data periodik per semester.</li>
+	</ol>
+</fieldset>
+
+<fieldset class="fieldset">
+<legend><h3>versi 2025.c</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan validasi terkait perhitungan wakil kepala sekolah.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan validasi PKL untuk kelas 13 bagi SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan NPWP PTK menjadi 16 digit.</li>
+	</ol>
+</fieldset>
+
+<fieldset class="fieldset">
+<legend><h3>versi 2025.b</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan pemicu wajib melengkapi data tahun lahir, pekerjaan, penghasilan dan pendidikan ayah atau wali jika kolom nama terisi.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penonaktifan tombol hapus, edit, dan simpan pada isian tugas tambahan kepala sekolah/PLT kepala sekolah. Perbaikan data tersebut hanya melalui Dinas Pendidikan.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan item kepemilikan dapur dan kantin pada lembar konfirmasi sebelum melakukan sinkronisasi.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait program MBG (Makan Bergizi Gratis).</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan <i>bugs</i> pada fitur kenaikan kelas/lanjutkan semester untuk rombongan belajar mata pelajaran pilihan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan <i>bugs</i> pada menu Pesan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan menu rombongan belajar untuk mata pelajaran pilihan pada bentuk pendidikan SPK SMA.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penambahan validasi isian instrumen KPK untuk penyelenggaraan PAK (Pendidikan Anti Korupsi).</li>
+	</ol>
+</fieldset>
+
+<fieldset class="fieldset">
+<legend><h3>versi 2025.a</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Satuan pendidikan pelaksana kurikulum merdeka T.A 2023/2024 dalam pengimplementasian kurikulum merdeka secara serentak.</li>
+		<li><b style="color:green">[Perbaikan]</b> Validasi satuan pendidikan pelaksana kurikulum merdeka T.A 2023/2024 di jenjang SMK/PKBM/SKB.</li>
+		<li><b style="color:green">[Perbaikan]</b> Validasi perhitungan usia peserta didik.</li>
+		<li><b style="color:green">[Perbaikan]</b> Pemetaan anggota rombel untuk peserta didik baru di kelompok B jenjang PAUD (TK).</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan <i>bugs</i> pemilihan kurikulum untuk layanan keaksaraan di jenjang kesetaraan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan <i>bugs</i> validasi (tidak ada keterangan).</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan <i>bugs</i> validasi perhitungan jumlah anggota rombel yang telah dihapus.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan <i>bugs</i> sinkronisasi data ijazah peserta didik lulus.</li>
+	</ol>
+</fieldset>
+
+<fieldset class="fieldset">
+<legend><h3>versi 2025</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan proses bisnis dalam pelaksanaan implementasi kurikulum merdeka (dapat dilakukan secara bertahap atau serentak).</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut jabatan GTK di Penugasan GTK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan fitur penginputan nomor ijazah dan nomor Surat Keterangan Melek Aksara (SUKMA) bagi peserta didik yang telah lulus.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi usia peserta didik di jenjang kesetaraan (PKBM dan SKB).</li>
+		<li><b style="color:blue">[Pembaruan]</b> Perubahan instrumen Pendidikan Anti Korupsi (PAK) di menu Beranda.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penonaktifan fitur salin penugasan di menu GTK (dilakukan otomatis oleh sistem).</li>
+		<li><b style="color:green">[Perbaikan]</b> Penonaktifan fitur kenaikan kelas di menu Rombongan Belajar untuk satuan pendidikan pelaksana Implementasi Kurikulum Merdeka Tahun Ajaran 2024/2025.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan penginputan format NIK pada formulir peserta didik dan GTK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan profil guru di menu GTK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Validasi jumlah peserta didik per rombongan belajar (sesuai Permendikbudristek Nomor 47 Tahun 2023).</li>
+		<li><b style="color:green">[Perbaikan]</b> Validasi jumlah rombongan belajar paralel (sesuai Permendikbudristek Nomor 47 Tahun 2023).</li>
+		<li><b style="color:green">[Perbaikan]</b> Validasi jumlah jam maksimal Praktik Kerja Lapangan (PKL) di jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Validasi usia peserta didik berkebutuhan khusus di jenjang PAUD.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penonaktifan isian riwayat jabatan pendidik/tenaga kependidikan, riwayat jabatan fungsional, dan kompetensi pada menu data rinci GTK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian referensi mata pelajaran di jenjang SD, SMP, SMA, dan SMK (sesuai Permendikbudristek Nomor 12 Tahun 2024).</li>
+	</ol>
+</fieldset>
+
+<fieldset class="fieldset">
+<legend><h3>versi 2024.c</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi jika satuan pendidikan merubah jenis kepanitiaan lama ke jenis kepanitiaan TPPK (wajib membuat kepanitiaan baru).</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan pop up ketika mendapatkan pesan baru dari pusat.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan urutan kolom NPWP dan nama wajib pajak pada formulir GTK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs validasi pengecekan Unsur Anggota GTK pada kepanitiaan TPPK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat mengimport nilai dari file excel.</li>
+	</ol>
+</fieldset>
+
+<fieldset class="fieldset">
+<legend><h3>versi 2024.b</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi satuan pendidikan wajib membuat kepanitaan terkait Pencegahan dan Penanganan Kekerasan di Lingkungan Satuan Pendidikan sesuai Permendikbudristek 46 Tahun 2023.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi bagi sekolah penerima bantuan TIK wajib menginputkan sejumlah unit yang diberikan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan validasi pada saat pengecekan Mata Pelajaran Pilihan bagi peserta didik yang sedang PKL pada jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan fitur penambahan rombongan belajar PKL di jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penambahan validasi untuk persiapan penginputan data TPPK sesuai Permendikbudristek No. 46 Tahun 2023.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan proses lulus manual di jenjang SPS dan TPA khusus semester ganjil Tahun Ajaran baru.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan fitur penambahan rombongan belajar pada tingkat tertentu yang tidak memiliki riwayat di semester sebelumnya.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penerapan batasan rombongan belajar dan anggota rombel sesuai Permendikbudristek No. 47 Tahun 2023.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penambahan validasi formulir PBAK KPK</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan Instrumen PBAK KPK</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan rekap diagram penerima bantuan di beranda</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan pada saat membuat akun PTK khusus jenjang TK dan SD (email telah digunakan oleh orang lain)</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat penambahan rombongan belajar bagi jenjang PKBM/SKB</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan kolom Registrasi Ruang menjadi Nomor Pokok Perpustakaan (NPP) khusus ruang perpustakaan</li>
+	</ol>
+</fieldset>
+
+<fieldset class="fieldset">
+<legend><h3>versi 2024.a</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada menu mata pelajaran pilihan bagi jenjang PKBM/SKB.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada validasi pengecekan Bahasa Asing pada Kurikulum 2013 bagi jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat pemilihan program dilayani di rombongan belajar kurikulum 2013 bagi jenjang SMA.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan pesan error tempat lahir pada saat menambah peserta didik baru pada jenjang TK dan SD.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2024</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan menu dan fitur baru Notifikasi dari pusat.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi bagi penerima bantuan TIK wajib memperbarui alat berupa Laptop.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi maksimal jumlah jam yang diterima oleh peserta didik pada tingkat 11 dan 12 bagi pelaksana Kurikulum Merdeka.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi ruang yang telah dihapus buku namun masih digunakan pada rombongan belajar.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan mata pelajaran Praktik Kerja Lapangan khusus untuk jenjang SMK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait penginputan Praktik Kerja Lapangan (PKL) khusus jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada sanitasi ketika menghitung jumlah jamban.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan referensi dalam pemilihan kecepatan internet pada Data Periodik Sekolah</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2023.e</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada konfirmasi data sebelum sinkroninasi.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat unduh excel daftar peserta didik.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan tombol hapus pada peserta didik.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan proses bisnis pada bentuk pendidikan Taman Seminari (KEMENAG).</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2023.d</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan penginputan tema P5 pada pembelajaran bagi Pelaksana Kurikulum Merdeka.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan Perbaikan bug saat memilih kurikulum dan tingkat pendidikan di jenjang PKBM/SKB yang menyelenggarakan program KB, TPA, dan SPS.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis penginputan prasarana kamar mandi/WC.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan isian kecamatan hingga level desa/kelurahan pada formulir peserta didik - bagian data pribadi.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan status informasi penerima Bantuan Operasional Satuan Pendidikan (BOSP).</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan sub ruang/bilik untuk prasarana kamar mandi/WC.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan kolom kondisi dan bobot kerusakan bangunan hasil penginputan melalui Manajemen SP.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan referensi ruang pusat sumber pendidikan inklusif.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2023.c</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat klik tombol sinkronisasi menjadi tombol Tarik Data.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat memilih Kurikulum dan Tingkat Pendidikan bagi jenjang KB, TPA, SPS.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat menambah peserta didik baru bagi jenjang SPK KB.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2023.b</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs validasi pada kelas tingkat 3,6,9,12 bagi sekolah bukan penyelenggara IKM.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs validasi JJM maksimal per rombel bagi kurikulum merdeka pada jenjang SD.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs saat pemilihan kurikulum merdeka bagi jenjang SMALB dan sekolah dibawah naungan KEMENAG.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs saat menyimpan C2 dan C3 bagi kurikulum 2013 pada jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat memetakan peserta didik pada rombongan belajar mata pelajaran pilihan.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2023.a</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs validasi pada kelas tingkat 3,6,9,12 bagi sekolah penggerak.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs validasi pada saat pengecekan data dinamis dan agregasi sarpras.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada registrasi peserta didik pada kolom program pengajaran bagi sekolah penggerak.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat melakukan sinkronisasi.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat mengunduh formulir PTK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat menginput Luas Tapak Bangunan di menu Bangunan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan referensi mata pelajaran bagi sekolah penggerak.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan referensi variabel pada data dinamis.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2023</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Pemindahan atribut Jenis PTK yang sebelumya berada di formulir PTK berpindah ke formulir penugasan PTK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut berkebutuhan khusus pada formulir PTK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut Kelas Orang Tua pada data rinci sekolah khusus jenjang PAUD.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan <i>end point</i> pada Web Service Dapodik guna keperluan terkait Aplikasi e-Rapor.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan pengisian Projek Penguatan Profil Pelajar Pancasila (P5) khusus untuk sekolah penggerak penyelenggara Implementasi Kurikulum Merdeka (IKM).</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan sub menu baru Mata Pelajaran Pilihan pada menu Rombongan Belajar khusus untuk sekolah penggerak.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan instrumen terkait Implementasi Insersi Pendidikan Anti Korupsi.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi sekolah negeri diwajibkan mengisikan NPWP dan nama wajib pajak.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi jumlah jam mata pelajaran yang dapat diajarkan lebih dari satu guru agar jam/minggu tidak lebih dari struktur kurikulum.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi mata pelajaran pilihan yang diambil oleh peserta didik yang berada di Fase F pada Kurikulum Merdeka.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi rasio rombongan belajar terhadap peserta didik bagi rombel dengan mata pelajaran pilihan.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi no handphone untuk GTK menjadi warning.</li>
+		
+		<li><b style="color:green">[Perbaikan]</b> Penutupan pengisian tingkat kerusakan pada Bangunan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan bisnis proses pengisian tingkat kerusakan pada Ruang.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penutupan atribut NPWP dan nama wajib pajak pada pengisian formulir sekolah (pengisian melalui BOS/BOP salur).</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan validasi antara data dinamis dan data sarpras menjadi Invalid.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2022.d</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait penginputan sarana dan prasarana.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan lembaran konfirmasi pada saat sebelum melakukan sinkronisasi.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait panjang, lebar dan luas pada tanah dan bangunan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs validasi Lokal terkait pengecekan kepala sekolah</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan penginputan nilai UPK</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada Profil Guru untuk perhitungan pensiun Kepala Sekolah</li>
+		<li><b style="color:green">[Perbaikan]</b> Penutupan user interface terkait informasi no rekening BOS/BOP</li>
+		<li><b style="color:green">[Perbaikan]</b> Penutupan user interface pengisian yayasan (pindah ke laman http://vervalyayasan.data.kemdikbud.go.id)</li>
+		<li><b style="color:green">[Perbaikan]</b> Penutupan perubahan tugas tambahan untuk Kepala Sekolah dan PLT Kepala Sekolah (dipindahkan ke menu Manajemen Dinas)</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2022.c</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Terakomodirnya kurikulum Sekolah Penggerak utk jenjang SLB dan TK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan fitur baru cetak rapor bagi satuan pendidikan penyelenggara kurikulum sekolah penggerak.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat menyimpan isian pada formulir sekolah.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian validasi pengecekan yayasan pada sekolah swasta.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2022.b</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Terakomodirnya kurikulum baru yaitu Kurikulum Pusat Keunggulan bagi jenjang SMK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan kolom Nomor Induk Berusahan (NIB) pada Relasi Dunia Usaha dan Industri bagi jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian validasi pembelajaran untuk Kurikulum Pusat Keunggulan bagi jenjang SMK.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2022.a-SP (Khusus Sekolah Penggerak)</h3></legend>
+	<ol>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian validasi pembelajaran untuk Kurikulum Sekolah Penggerak bagi jenjang SD, SMP dan SMA.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan tampilan penyelenggara mata pelajaran Informatika bagi Sekolah Penggerak.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2022.a</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Terakomodirnya kurikulum baru yaitu Kurikulum Merdeka bagi sekolah penggerak untuk jenjang SD, SMP dan SMA.</li>
+		<li><b style="color:green">[Perbaikan]</b> Dibukanya inputan untuk nilai UPK bagi jenjang PKBM/SKB (Diperuntukan bagi satuan pendidikan yang belum mengisi nilai UPK peserta didik).</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan bugs pada saat meluluskan bagi jenjang KB, TPA dan SPS.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan validasi untuk pengecekan nama peserta didik dan nama ibu kandung yang mengandung char tab dan enter (dibuka hanya semester ganji TA 2021/2022).</li>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian validasi pembelajaran untuk Kurikulum Merdeka.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2022</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut jumlah laik pada data alat periodik.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut alamat_jalan, rt, rw, nama_dusun, desa_kelurahan, kode_wilayah, kode_pos, lintang, bujur dan wilayah pada formulir tanah.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut sub-ruang pada formulir ruang khusus jenjang SMK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan panjang karakter pada atribut No SKHUN dan No Peserta Ujian pada formulir registrasi peserta didik.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan beberapa atribut guna keperluan pemangku kepentingan pada riwayat sertifikasi GTK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut jenis bidang usaha pada formulir bidang usaha khusus jenjang SMK.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut pekerjaan pada formulir peserta didik khusus jenjang PKBM dan SKB (guna mengakomodir warga belajar).</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan tabel dinamis guna kepentingan yang bersifat sementara.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait syarat menjadi Kepala Sekolah atau PLT Kepala Sekolah.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait sanitasi.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait pengisian KIP/PIP.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait batas minimal masuk peserta didik untuk jenjang TK adalah 4 tahun.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait batas maksimal peserta didik untuk jenjang PAUD (TK, KB, TPA dan SPS) adalah 7 tahun.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi terkait batas maksimal peserta didik adalah 72 tahun (Sesuai usia harapan hidup pendudukan Indonesia).</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan info terkait pengisian Survey PTM.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Proses kelulusan bersama tingkat akhir.</li>
+
+		<li><b style="color:green">[Perbaikan]</b> Perubahan bisnis proses pada penginputan ruang dan sub-ruang khusus jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan paksa untuk merubah password pada pertama kali login (Pergantian password secara rutin).</li>
+	</ol>
+</fieldset>
